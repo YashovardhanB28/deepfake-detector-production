@@ -1,0 +1,67 @@
+================================================================================
+                          ⭐ START HERE ⭐
+================================================================================
+
+PHASE 1: FIX DATA LEAKAGE IN 3 SIMPLE STEPS
+
+You have 4 scripts ready to run. Here's what to do:
+
+================================================================================
+STEP 1: CLEANUP (15 minutes)
+================================================================================
+
+Command:
+  cd D:\deepfake_detector_production
+  python CLEANUP_PROJECT.py
+
+When prompted, type: YES
+
+This removes all confusing old files. ✅
+
+================================================================================
+STEP 2: FIX DATA LEAKAGE (2-3 hours)
+================================================================================
+
+Command:
+  python FIX_DATA_LEAKAGE_FINAL.py
+
+Grab coffee. This takes 2-3 hours but runs automatically.
+
+When done, you'll see:
+  ✅ PHASE 1 COMPLETE!
+  ✅ data_clean/ folder is ready with ZERO data leakage
+
+================================================================================
+STEP 3: RETRAIN & TEST (2 hours)
+================================================================================
+
+Commands:
+  python UPDATE_TRAINING_SCRIPT.py
+  python MY_TRAINING_SCRIPT.py
+  python diagnose_now_FIXED.py
+
+Expected results:
+  ✅ Accuracy: 93-95% (honest, not fake 97%)
+
+================================================================================
+THEN WHAT?
+================================================================================
+
+After Phase 1 completes, tell me:
+  1. What's your test accuracy?
+  2. Did the 100% accuracy go away?
+
+Then we move to Phase 2 → 98% in 6 weeks
+
+================================================================================
+YOUR TIMELINE
+================================================================================
+
+TODAY: Phase 1 → 85% honest
+WEEK 2: Phase 2 → 90% 
+WEEK 3-4: Phase 3-4 → 93%
+WEEK 5-6: Phase 5 → 97-98%
+
+================================================================================
+LET'S GO! 🚀
+================================================================================

@@ -1,0 +1,11 @@
+model:
+  backbone: "convnext_base"  # RTX 4060 optimized
+  pretrained: true
+training:
+  batch_size: 16              # RTX 4060 sweet spot
+  epochs: 50
+  lr: 1e-4
+  device: "cuda:0"
+data:
+  img_size: 224
+  frames_per_video: 16
