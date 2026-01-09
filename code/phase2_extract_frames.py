@@ -62,9 +62,10 @@ processed_dir = data_dir / "processed"
 
 # CORRECTED PATHS - Based on actual FaceForensics++ structure
 video_sources = {
-    'real': data_dir / "faceforensics" / "FaceForensics++_C23" / "original",
-    'fake': data_dir / "faceforensics" / "FaceForensics++_C23" / "Deepfakes",
+    'real': data_dir / "faceforensics" / "archive" / "FaceForensics++_C23" / "original",
+    'fake': data_dir / "faceforensics" / "archive" / "FaceForensics++_C23" / "Deepfakes",  # Start with Deepfakes
 }
+
 
 
 def extract_frames(video_path, output_dir, max_frames=100):
