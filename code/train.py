@@ -147,11 +147,16 @@ print(f"Total validation batches per epoch: {len(val_loader)}\n")
 print("🔧 Loading ResNet50 model...")
 model = models.resnet50(weights=models.ResNet50_Weights.DEFAULT)
 
-# Replace final layer for binary classification
+# FIXED CODE:
+num_classes = 2  # Binary classification: Real (0) or Deepfake (1)
+
 model.fc = nn.Sequential(
-    nn.Linear(2048, 512),   # fc.0
-    nn.Linear(512, num_classes)  # fc.1 - WRONG!
+    nn.Linear(2048, 512),
+    nn.ReLU(),  # Add activation
+    nn.Dropout(0.5),  # Prevent overfitting
+    nn.Linear(512, num_classes)
 )
+
 
 
 model = model.to(device)
