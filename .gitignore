@@ -1,19 +1,46 @@
-﻿youtube_videos/
-deepforensics/
+﻿# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+venv_gpu/
+*.egg-info/
+
+# Data
+data/
+datasets/
 *.mp4
-*.webm
-*.mkv
 *.avi
 *.mov
-*.pth
-*.pt
-models/
-checkpoints/
-__pycache__/
-*.pyc
-venv/
-env/
-datasets/
-results/
+*.jpg
+*.png
+analysis_results/
+
+# Models (keep best_model.pth)
+models/checkpoint_*.pth
+
+# Logs
 logs/
-data/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Old versions
+old_versions/
+code/
+scripts/
+
+# Large files
+*.txt
+!requirements.txt
+structure.txt
+important_files.txt
