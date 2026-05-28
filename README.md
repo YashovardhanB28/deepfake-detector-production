@@ -4,6 +4,7 @@
 **Email:** [yashovardhanbangur2801@gmail.com](mailto:yashovardhanbangur2801@gmail.com)  
 **GitHub:** [YashovardhanB28/deepfake-detector-production](https://github.com/YashovardhanB28/deepfake-detector-production)  
 **LinkedIn:** [(https://www.linkedin.com/in/yashovardhan-bangur-83677a31a/)]
+
 **License:** MIT  
 **Last Updated:** January 19, 2026  
 **Status:** ✅ Production Ready
